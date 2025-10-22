@@ -39,7 +39,7 @@ Each analyzed string is uniquely identified by its **SHA-256 hash**, and duplica
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/string-analysis-service.git
+git clone https://github.com/Usenmfon/string-analyzer-service.git
 cd string-analysis-service
 
 # 🧠 String Analysis RESTful API (Laravel)
@@ -78,13 +78,6 @@ Each analyzed string is uniquely identified by its **SHA-256 hash**, and duplica
 - **Tools:** Eloquent ORM, JSON API responses, Validation via Form Requests
 
 ---
-
-## 🏗️ Installation & Setup
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/string-analysis-service.git
-cd string-analysis-service
 
 🧑‍💻 Development Notes
 
