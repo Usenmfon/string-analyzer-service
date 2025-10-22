@@ -139,6 +139,7 @@ class StringController extends Controller
         }
 
         $req = new Request($filters);
+        
         $q = StringEntry::query();
 
         if (isset($filters['is_palindrome'])) {
