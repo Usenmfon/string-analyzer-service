@@ -44,8 +44,8 @@ find /var/www/html/bootstrap/cache -type f -exec chmod 664 {} \;
 echo "Linking storage..."
 php artisan storage:link
 
-echo "Creating Permissions..."
-php artisan permission:create-permission-routes
+# echo "Creating Permissions..."
+# php artisan permission:create-permission-routes
 
 # echo "Running seeder files..."
 # php artisan db:seed --force
